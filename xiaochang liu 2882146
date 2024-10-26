@@ -1,0 +1,35 @@
+#hw10
+
+print((-2+(2**2-4*1*(-5))**(1/2))/2*1)
+
+print((-2-(2**2-4*1*(-5))**(1/2))/2*1)
+
+#hw11
+
+LENGTH=float(input("What is the length?"))
+
+WIDTH=float(input("What is the width?"))
+
+print("The area is ...")
+
+AREA=LENGTH*WIDTH
+
+print(AREA)
+
+
+
+#hw2
+
+X=int(input("How many friends do you have?"))
+
+Y=int(input("How many chocolates?"))
+
+N=Y//X
+
+print("each friend has",N)
+
+M=Y%X
+
+print("left M",M)
+
+quit()
